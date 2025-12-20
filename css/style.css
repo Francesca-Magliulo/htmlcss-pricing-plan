@@ -1,0 +1,28 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.cards{
+    background-color: rgb(80, 80, 189);
+    border-radius: 20px;
+    margin: 30px;
+    padding: 30px;
+    min-width: 300px;
+   
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+      
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
