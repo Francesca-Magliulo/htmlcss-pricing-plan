@@ -116,13 +116,26 @@ font-size: 16px;
 .list-container ul{
     list-style: none;
     padding: 0;
-    margin: 20px;
+    margin: 20px 0;
+    
+}
+
+.terza-card .list-container ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 10px;
 }
 
 .list-container li{
     display: flex;
     align-items: center;
     gap: 8px;
+    
+}
+
+.terza-card .list-container li{
+    flex: 1 1 45%;
+    min-width: 220px;
 }
 
 .icon{
